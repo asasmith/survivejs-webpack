@@ -1,7 +1,9 @@
-export default (text = 'hello world') => {
+export default (text = 'Hello World') => {
   const el = document.createElement('div')
 
   el.innerHTML = text
+
+  console.log(foo)
 
   return el
 }
